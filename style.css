@@ -1,4 +1,72 @@
-body {
-    color: white;
-    background-color: #0f0f0f;
+body,html {
+    height: 100%;
+    color: black;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html {
+    margin-bottom: 20px;
+}
+
+@font-face {
+    font-family: cocoGothic;
+    src: url(CocoGothic.ttf)
+}
+
+.nav-text {
+    font-family: cocoGothic;
+}
+
+.textbox {
+    margin-top: 25%;
+    color: black;
+}
+
+.textbox h1 {
+    animation: h1-fade 1s ease;
+}
+
+.textbox p {
+    font-size: 1.2rem;
+    animation: p-fade 1.2s ease;
+}
+
+.textbox .project {
+    animation: p-fade 2s ease;
+}
+
+.textbox li {
+    font-size: 1.2rem;
+}
+
+@keyframes h1-fade {
+    0% {opacity:0%; offset-position: -10px;}
+    100% {opacity:100%; offset-position: 0px;}
+}
+
+@keyframes p-fade {
+    0% {opacity:0%}
+    25% {opacity:0%}
+    100% {opacity:100%}
+}
+
+@keyframes project-fade {
+    0% {opacity:0%}
+    50% {opacity:0%}
+    100% {opacity:100%}
+}
+
+.contact-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.project {
+    margin-top: 10%;
+}
+
+.bottom-spacer {
+    padding: 20px;
 }
