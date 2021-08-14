@@ -1,5 +1,5 @@
 body,html {
-    height: 100%;
+    overflow-y: overlay;
     color: black;
     background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
