@@ -70,3 +70,7 @@ html {
 .bottom-spacer {
     padding: 20px;
 }
+
+.carousel-item img {
+    max-height: 75vh;
+}
