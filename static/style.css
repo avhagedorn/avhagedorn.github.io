@@ -41,8 +41,8 @@ html {
 }
 
 @keyframes h1-fade {
-    0% {opacity:0%; offset-position: -10px;}
-    100% {opacity:100%; offset-position: 0px;}
+    0% {opacity:0%}
+    100% {opacity:100%}
 }
 
 @keyframes p-fade {
