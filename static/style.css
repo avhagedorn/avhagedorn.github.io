@@ -2,7 +2,7 @@ body,html {
     overflow-y: overlay;
     color: black;
     background-color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 html {
@@ -27,7 +27,7 @@ html {
     animation: h1-fade 1s ease;
 }
 
-.textbox p {
+.textbox p, b {
     font-size: 1.2rem;
     animation: p-fade 1.2s ease;
 }
